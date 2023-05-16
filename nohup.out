@@ -1,0 +1,17 @@
+Watching for file changes with StatReloader
+[15/May/2023 07:27:38] "GET / HTTP/1.1" 200 10731
+[15/May/2023 07:27:38] "GET /static/admin/css/fonts.css HTTP/1.1" 404 1827
+[15/May/2023 07:27:43] "GET / HTTP/1.0" 200 10731
+Not Found: /favicon.ico
+[15/May/2023 07:27:43] "GET /favicon.ico HTTP/1.0" 404 2113
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 15, 2023 - 07:27:33
+Django version 4.2.1, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+
